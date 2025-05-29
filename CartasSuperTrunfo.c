@@ -1,3 +1,4 @@
+
 #include <stdio.h>
         int main() {
             char estadoa[20], estadob[20];
@@ -61,7 +62,8 @@
                 printf("Área em KM²:%f\n",areaa);
                 printf("PIB:%f\n",piba);
                 printf("Número de pontos turísticos:%d\n",pontosta);
-
+                printf("Densidade Populacional:%f Hab/KM²\n",populacaoa/areaa);
+                printf("PIB Per Capita:%f Reais\n",piba/populacaoa);
                 printf("============================================================\n");
                     printf("Carta 02:\n");
                     printf("Estado:%s\n",estadob);
@@ -71,7 +73,8 @@
                     printf("Área em KM²:%f\n",areab);
                     printf("PIB:%f\n",pibb);
                     printf("Número de pontos turísticos:%d\n",pontostb);
-
+                    printf("Densidade Populacional:%f Hab/KM²\n",populacaob/areab);
+                    printf("PIB Per Capita:%f Reais\n",pibb/populacaob);
         
             return 0;
             }
